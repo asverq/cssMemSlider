@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Mem Slider</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <div class="slider">
+            <input class="slider__radio" type="radio" name="slider-radio" id="slider-radio1" checked>
+            <input class="slider__radio" type="radio" name="slider-radio" id="slider-radio2">
+            <input class="slider__radio" type="radio" name="slider-radio" id="slider-radio3">
+            <input class="slider__radio" type="radio" name="slider-radio" id="slider-radio4">
+            <input class="slider__radio" type="radio" name="slider-radio" id="slider-radio5">
+            <div class="labels-wrapper">
+                <label class="slider__label" id="label1" for="slider-radio1"></label>
+                <label class="slider__label" id="label2" for="slider-radio2"></label>
+                <label class="slider__label" id="label3" for="slider-radio3"></label>
+                <label class="slider__label" id="label4" for="slider-radio4"></label>
+                <label class="slider__label" id="label5" for="slider-radio5"></label>
+            </div>
+            <div class="slider__items">
+                <div class="slider__item">
+                    <img class="slider__img" src="img/vong-i-portal-memy.jpg" alt="">
+                    <p class="slider__text">lorem</p>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/vong-i-portal-memy.jpg" alt="">
+                    <p class="slider__text">lor</p>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/vong-i-portal-memy.jpg" alt="">
+                    <p class="slider__text">orem</p>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/vong-i-portal-memy.jpg" alt="">
+                    <p class="slider__text">oem</p>
+                </div>
+                <div class="slider__item">
+                    <img class="slider__img" src="img/vong-i-portal-memy.jpg" alt="">
+                    <p class="slider__text">loem</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
