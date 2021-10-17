@@ -145,7 +145,7 @@ body {
 @media (max-width: 640px) {
     .labels-wrapper {
         justify-content: center;
-        transform: translateY(-40px);
+        transform: translateY(-52px);
     }
 
     .slider__text {
