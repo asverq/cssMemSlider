@@ -64,13 +64,13 @@ body {
 .labels-wrapper {
     display: flex;
     justify-content: end;
-    position: relative;
-    z-index: 10;
 }
 
 .slider__label {
     background-color: #25282A;
     cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
 
 .slider__label div {
@@ -146,6 +146,8 @@ body {
     .labels-wrapper {
         justify-content: center;
         transform: translateY(-52px);
+        position: relative;
+        z-index: 10;
     }
 
     .slider__text {
