@@ -25,14 +25,14 @@ body {
 
 .container {
     height: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
 
 .slider {
-    margin: 0 40px;
+    margin: 0 2rem;
     display: flex;
     flex-direction: column-reverse;
     overflow: hidden;
@@ -50,11 +50,11 @@ body {
 
 .slider__img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 .slider__text {
-    transform: translateY(30px);
+    transform: translateY(1.8rem);
 }
 
 .slider__radio {
@@ -74,18 +74,18 @@ body {
 }
 
 .slider__label div {
-    height: 20px;
-    width: 20px;
-    margin: 10px 5px;
+    height: 1.1rem;
+    width: 1.1rem;
+    margin: 0.6rem 0.3rem;
     display: block;
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: #71ABFF;
     border-radius: 50%;
     transition: all 0.2s ease;
 }
 
 .slider__label:hover div {
-    border: 2px #fff solid;
+    border: 0.17rem #fff solid;
     background-color: #fff;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 #slider-radio1:checked~.labels-wrapper #label1 div {
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: transparent;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 #slider-radio2:checked~.labels-wrapper #label2 div {
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: transparent;
 }
 
@@ -112,7 +112,7 @@ body {
 }
 
 #slider-radio3:checked~.labels-wrapper #label3 div {
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: transparent;
 }
 
@@ -121,7 +121,7 @@ body {
 }
 
 #slider-radio4:checked~.labels-wrapper #label4 div {
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: transparent;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 #slider-radio5:checked~.labels-wrapper #label5 div {
-    border: 2px #71ABFF solid;
+    border: 0.17rem #71ABFF solid;
     background-color: transparent;
 }
 
@@ -139,19 +139,19 @@ body {
 }
 
 .slider__radio:checked~.labels-wrapper .slider__label:hover div {
-    border: 2px #fff solid !important;
+    border: 0.17rem #fff solid !important;
 }
 
 @media (max-width: 640px) {
     .labels-wrapper {
         justify-content: center;
-        transform: translateY(-52px);
+        transform: translateY(-3.1rem);
         position: relative;
         z-index: 10;
     }
 
     .slider__text {
-        margin: 20px 0 10px;
-        transform: translateY(40px);
+        margin: 1.4rem 0 0.6rem;
+        transform: translateY(2.5rem);
     }
 }
